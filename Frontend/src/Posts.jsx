@@ -7,7 +7,7 @@ function Posts() {
 
     useEffect(()=>{
 
-        fetch('http://localhost:3000/posts')
+        fetch('https://instagram-clone-frontend-o32g.onrender.com/posts')
         .then((data)=>data.json())
         .then(data=>setPosts(data))
         .catch(err=>console.log(err))

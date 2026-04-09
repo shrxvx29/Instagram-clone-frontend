@@ -20,12 +20,12 @@ function SuggestionBar() {
 
     useEffect(() => {
 
-        fetch('http://localhost:3000/profile')
+        fetch('https://instagram-clone-frontend-o32g.onrender.com/profile')
             .then(res => res.json())
             .then(data => setProfile(data))
             .catch(err => console.log(err))
 
-        fetch('http://localhost:3000/suggestions')
+        fetch('https://instagram-clone-frontend-o32g.onrender.com/stories')
             .then(res => res.json())
             .then(data => setSuggestions(data))
             .catch(err => console.log(err))

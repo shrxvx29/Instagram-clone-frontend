@@ -18,7 +18,7 @@ function PostCard({ post }) {
     setLikesCount(newLikesCount);
 
     // Update json-server backend
-    fetch(`http://localhost:3000/posts/${post.id}`, {
+    fetch(`https://instagram-clone-frontend-o32g.onrender.com/posts/${post.id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json'

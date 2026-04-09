@@ -7,7 +7,7 @@ function StoryBar() {
   const navigate =useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:3000/stories')
+    fetch('https://instagram-clone-frontend-o32g.onrender.com/stories')
       .then((res) => res.json())
       .then((data) => setStories(data))
       .catch((err) => console.log(err));
