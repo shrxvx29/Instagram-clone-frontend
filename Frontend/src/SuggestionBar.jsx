@@ -25,7 +25,7 @@ function SuggestionBar() {
             .then(data => setProfile(data))
             .catch(err => console.log(err))
 
-        fetch('https://instagram-clone-frontend-o32g.onrender.com/stories')
+        fetch('https://instagram-clone-frontend-o32g.onrender.com/suggestions')
             .then(res => res.json())
             .then(data => setSuggestions(data))
             .catch(err => console.log(err))
