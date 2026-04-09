@@ -1,0 +1,176 @@
+.w-20{
+    width: 20%;
+}
+.w-30{
+    width: 30%;
+}
+.logo-text{
+    width: 55%;
+    margin-left: 10px;
+    top: 10%;
+  
+}
+.bi{
+    padding-right: 10px;
+    font-size: 24px;
+}
+.story{
+    width: 100%;
+    height: 20%;
+    z-index: 3;
+}
+.dp{
+    height: 45px;
+    width: 45px;
+    margin-top: 5px;
+}
+.post{
+    width: 100%;
+    height: 500px;
+}
+.postscard{
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.myprf{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15%;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 10%;
+
+}
+/* Container */
+.story-container {
+  display: flex;
+  gap: 16px;
+  padding: 15px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+/* Hide scrollbar */
+.story-container::-webkit-scrollbar {
+  display: none;
+}
+.story-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Each story */
+.story-item {
+  text-align: center;
+  flex-shrink: 0;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.story-item:hover {
+  transform: scale(1.05);
+}
+
+/* Gradient ring */
+.story-ring {
+  padding: 3px;
+  border-radius: 50%;
+  background: linear-gradient(
+    45deg,
+    #feda75,
+    #fa7e1e,
+    #d62976,
+    #962fbf,
+    #4f5bd5
+  );
+}
+
+/* Image */
+.story-img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 3px solid white;
+  object-fit: cover;
+}
+
+/* Username */
+.story-username {
+  font-size: 12px;
+  margin-top: 6px;
+  width: 70px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Image */
+.viewer-img {
+  height: 90%;
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* Header */
+.viewer-header {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 10px;
+}
+
+.viewer-header img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* Progress */
+.progress-bar {
+  position: absolute;
+  top: 10px;
+  left: 5%;
+  width: 90%;
+  height: 3px;
+  background: rgba(255,255,255,0.3);
+}
+
+.progress {
+  height: 100%;
+  background: white;
+  transition: width 0.1s linear;
+}
+
+/* Click areas */
+.left, .right {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}

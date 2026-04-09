@@ -1,0 +1,310 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "https://i.pravatar.cc/150?img=1"
+      },
+      "image": "https://picsum.photos/id/1018/600/400",
+      "caption": "Beautiful sunset 🌅 #nature",
+      "likesCount": 121,
+      "timestamp": "2025-02-11T14:30:00Z",
+      "comments": [
+        {
+          "id": 1,
+          "user": {
+            "username": "alice_wonder"
+          },
+          "text": "Amazing shot 🔥"
+        },
+        {
+          "id": 2,
+          "user": {
+            "username": "mark_92"
+          },
+          "text": "Where is this?"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "https://i.pravatar.cc/150?img=2"
+      },
+      "image": "https://picsum.photos/id/1025/600/400",
+      "caption": "Beach vibes 🏖️",
+      "likesCount": 97,
+      "timestamp": "2025-02-12T10:00:00Z",
+      "comments": [
+        {
+          "id": 3,
+          "user": {
+            "username": "john_doe"
+          },
+          "text": "Looks peaceful 😍"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "https://i.pravatar.cc/150?img=3"
+      },
+      "image": "https://picsum.photos/id/1035/600/400",
+      "caption": "Morning workout 💪",
+      "likesCount": 181,
+      "timestamp": "2025-02-13T06:30:00Z",
+      "comments": [
+        {
+          "id": 4,
+          "user": {
+            "username": "sara_dev"
+          },
+          "text": "Respect bro 💪"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "sara_dev",
+        "profile_pic": "https://i.pravatar.cc/150?img=4"
+      },
+      "image": "https://picsum.photos/id/1041/600/400",
+      "caption": "Late night coding 💻✨",
+      "likesCount": 221,
+      "timestamp": "2025-02-14T23:00:00Z",
+      "comments": [
+        {
+          "id": 5,
+          "user": {
+            "username": "john_doe"
+          },
+          "text": "Same life 😂"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "raj_official",
+        "profile_pic": "https://i.pravatar.cc/150?img=5"
+      },
+      "image": "https://picsum.photos/id/1080/600/400",
+      "caption": "Burger love 🍔❤️",
+      "likesCount": 301,
+      "timestamp": "2025-02-15T13:00:00Z",
+      "comments": [
+        {
+          "id": 6,
+          "user": {
+            "username": "mark_92"
+          },
+          "text": "Now I’m hungry 🤤"
+        }
+      ]
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "jackie_",
+      "profile_pic": "https://i.pravatar.cc/150?img=19"
+    },
+    {
+      "id": "102",
+      "username": "alice_wonder",
+      "profile_pic": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": "103",
+      "username": "mark_92",
+      "profile_pic": "https://i.pravatar.cc/150?img=3"
+    },
+    {
+      "id": "104",
+      "username": "sara_dev",
+      "profile_pic": "https://i.pravatar.cc/150?img=4"
+    },
+    {
+      "id": "105",
+      "username": "raj_official",
+      "profile_pic": "https://i.pravatar.cc/150?img=5"
+    },
+    {
+      "id": "106",
+      "username": "dev_kumar",
+      "profile_pic": "https://i.pravatar.cc/150?img=6"
+    },
+    {
+      "id": "107",
+      "username": "nisha_arts",
+      "profile_pic": "https://i.pravatar.cc/150?img=7"
+    },
+    {
+      "id": "108",
+      "username": "tech_guru",
+      "profile_pic": "https://i.pravatar.cc/150?img=8"
+    },
+    {
+      "id": "109",
+      "username": "fitness_raj",
+      "profile_pic": "https://i.pravatar.cc/150?img=9"
+    },
+    {
+      "id": "110",
+      "username": "travel_with_me",
+      "profile_pic": "https://i.pravatar.cc/150?img=10"
+    },
+    {
+      "id": "111",
+      "username": "foodie_diary",
+      "profile_pic": "https://i.pravatar.cc/150?img=11"
+    },
+    {
+      "id": "112",
+      "username": "code_master",
+      "profile_pic": "https://i.pravatar.cc/150?img=12"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "john_doe",
+    "name": "John Doe",
+    "profile_pic": "https://i.pravatar.cc/150?img=1",
+    "bio": "Travel | Photography 📸",
+    "followers": 1200,
+    "following": 300,
+    "postsCount": 25
+  },
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "https://i.pravatar.cc/150?img=1"
+      },
+      "storyImage": "https://picsum.photos/id/1011/300/500",
+      "timestamp": "2025-02-18T08:00:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "alice_wonder",
+        "profile_pic": "https://i.pravatar.cc/150?img=2"
+      },
+      "storyImage": "https://picsum.photos/id/1012/300/500",
+      "timestamp": "2025-02-18T09:10:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "mark_92",
+        "profile_pic": "https://i.pravatar.cc/150?img=3"
+      },
+      "storyImage": "https://picsum.photos/id/1013/300/500",
+      "timestamp": "2025-02-18T10:20:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "sara_dev",
+        "profile_pic": "https://i.pravatar.cc/150?img=4"
+      },
+      "storyImage": "https://picsum.photos/id/1015/300/500",
+      "timestamp": "2025-02-18T11:30:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "raj_official",
+        "profile_pic": "https://i.pravatar.cc/150?img=5"
+      },
+      "storyImage": "https://picsum.photos/id/1016/300/500",
+      "timestamp": "2025-02-18T12:40:00Z"
+    },
+    {
+      "id": "6",
+      "user": {
+        "id": 106,
+        "username": "dev_kumar",
+        "profile_pic": "https://i.pravatar.cc/150?img=6"
+      },
+      "storyImage": "https://picsum.photos/id/1018/300/500",
+      "timestamp": "2025-02-18T13:15:00Z"
+    },
+    {
+      "id": "7",
+      "user": {
+        "id": 107,
+        "username": "nisha_arts",
+        "profile_pic": "https://i.pravatar.cc/150?img=7"
+      },
+      "storyImage": "https://picsum.photos/id/1020/300/500",
+      "timestamp": "2025-02-18T14:05:00Z"
+    },
+    {
+      "id": "8",
+      "user": {
+        "id": 108,
+        "username": "tech_guru",
+        "profile_pic": "https://i.pravatar.cc/150?img=8"
+      },
+      "storyImage": "https://picsum.photos/id/1024/300/500",
+      "timestamp": "2025-02-18T15:25:00Z"
+    },
+    {
+      "id": "9",
+      "user": {
+        "id": 109,
+        "username": "fitness_raj",
+        "profile_pic": "https://i.pravatar.cc/150?img=9"
+      },
+      "storyImage": "https://picsum.photos/id/1027/300/500",
+      "timestamp": "2025-02-18T16:10:00Z"
+    },
+    {
+      "id": "10",
+      "user": {
+        "id": 110,
+        "username": "travel_with_me",
+        "profile_pic": "https://i.pravatar.cc/150?img=10"
+      },
+      "storyImage": "https://picsum.photos/id/1031/300/500",
+      "timestamp": "2025-02-18T17:00:00Z"
+    },
+    {
+      "id": "11",
+      "user": {
+        "id": 111,
+        "username": "foodie_diary",
+        "profile_pic": "https://i.pravatar.cc/150?img=11"
+      },
+      "storyImage": "https://picsum.photos/id/1035/300/500",
+      "timestamp": "2025-02-18T18:20:00Z"
+    },
+    {
+      "id": "12",
+      "user": {
+        "id": 112,
+        "username": "code_master",
+        "profile_pic": "https://i.pravatar.cc/150?img=12"
+      },
+      "storyImage": "https://picsum.photos/id/1039/300/500",
+      "timestamp": "2025-02-18T19:45:00Z"
+    }
+  ]
+}
