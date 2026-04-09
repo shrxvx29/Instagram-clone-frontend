@@ -8,11 +8,12 @@ function ViewStory() {
   const navigate = useNavigate();
 
   useEffect(() => {
+    setStory(null);
+    setProgress(0);
     fetch(`https://instagram-clone-frontend-o32g.onrender.com/stories/${id}`)
       .then(res => res.json())
       .then(data => {
         setStory(data);
-        setProgress(0); // Reset progress on new story
       })
       .catch(err => console.log(err));
   }, [id]);
